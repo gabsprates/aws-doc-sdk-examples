@@ -71,3 +71,14 @@ export const confirmSignUp = async (username: string, code: string) => {
     throw error;
   }
 };
+
+export const changePassword = async (currentPassword: string, newPassword: string) => {
+  const params = {};
+
+  try {
+    const command = new 
+  } catch (error) {
+    console.error("Error changing password: ", error);
+    throw error;    
+  }
+}
